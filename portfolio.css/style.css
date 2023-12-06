@@ -11,7 +11,7 @@ body {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 150px 20px;
+  padding: 120px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -30,7 +30,7 @@ body {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 24px;
-  line-height: 2;
+  line-height: 1.7;
   color: #272142;
 }
 .btn-branding {
@@ -42,4 +42,66 @@ body {
   line-height: 27px;
   font-weight: 500;
   padding: 15px 40px;
+}
+
+.feature {
+  color: #272142;
+
+  text-align: center;
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.heading {
+  color: #000;
+  font-family: var(--heading-font-family);
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+p {
+  color: rgba(39, 33, 66, 0.7);
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.view-button {
+  border-radius: 4px;
+  color: rgba(108, 99, 255, 1);
+  background: white;
+  border: 1px solid var(--primary-color);
+  padding: 18px 30px;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    text-align: center;
+    padding: 65px 40px;
+  }
+  h1,
+  h2,
+  h2 {
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 60px;
+  }
+  .heading {
+    font-size: 50px;
+  }
+  .container {
+    text-align: center !important;
+    font-size: 18px;
+  }
+  .view-button {
+    text-align: center;
+  }
 }
