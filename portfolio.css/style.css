@@ -9,7 +9,7 @@ body {
 }
 
 .hero {
-  background: var(--secondary-color);
+  background: #ccb59d;
   text-align: center;
   padding: 120px 20px;
 }
@@ -34,9 +34,9 @@ body {
   color: #272142;
 }
 .btn-branding {
-  background: var(--primary-color);
+  background: #6e6864;
   color: white;
-  border-radius: 4px;
+  border-radius: 8px;
   font-family: var(--default-font-family);
   font-size: 18px;
   line-height: 27px;
@@ -49,7 +49,7 @@ body {
 
   text-align: center;
   font-family: var(--default-font-family);
-  font-size: 18px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -73,6 +73,32 @@ p {
   line-height: 30px;
 }
 
+.view-button-tz {
+  background: #328dc6;
+  color: beige;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none !important;
+  background: #328dc6;
+  color: beige;
+}
+.view-button-weather {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none !important;
+  background: #d0e5f0;
+  color: darkblue;
+}
+
+.view-button-coffee {
+  color: white;
+  border-radius: 4px;
+  padding: 20px 15px;
+  background: #8a623c;
+  color: beige;
+  text-decoration: none !important;
+}
+
 .view-button {
   border-radius: 4px;
   color: rgba(108, 99, 255, 1);
@@ -94,6 +120,10 @@ p {
   .hero h1 {
     font-size: 60px;
   }
+
+  .feature {
+    font-size: 20px;
+  }
   .heading {
     font-size: 50px;
   }
@@ -103,5 +133,14 @@ p {
   }
   .view-button {
     text-align: center;
+  }
+
+  .view-button-coffee,
+  .view-button-tz,
+  .view-button-weather,
+  .btn-branding {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
   }
 }
