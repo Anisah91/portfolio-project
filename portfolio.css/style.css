@@ -7,7 +7,6 @@
 body {
   font-family: var(--default-font-family);
 }
-
 .hero {
   background: #ccb59d;
   text-align: center;
@@ -20,7 +19,6 @@ body {
   margin: 0;
   color: #272142;
 }
-
 .hero h1 {
   font-size: 94px;
   font-weight: 700;
@@ -44,10 +42,8 @@ body {
   font-weight: 500;
   padding: 15px 40px;
 }
-
 .feature {
   color: #272142;
-
   text-align: center;
   font-family: var(--default-font-family);
   font-size: 24px;
@@ -55,7 +51,6 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-
 .heading {
   color: #000;
   font-family: var(--heading-font-family);
@@ -64,7 +59,6 @@ body {
   font-weight: 700;
   line-height: 1.5;
 }
-
 p {
   color: rgba(39, 33, 66, 0.7);
   font-family: var(--default-font-family);
@@ -73,7 +67,6 @@ p {
   font-weight: 400;
   line-height: 30px;
 }
-
 .view-button-tz {
   background: #328dc6;
   color: beige;
@@ -90,7 +83,6 @@ p {
   background: #d0e5f0;
   color: darkblue;
 }
-
 .view-button-coffee {
   color: white;
   border-radius: 4px;
@@ -99,7 +91,6 @@ p {
   color: beige;
   text-decoration: none !important;
 }
-
 .view-button {
   border-radius: 4px;
   color: rgba(108, 99, 255, 1);
@@ -107,7 +98,6 @@ p {
   border: 1px solid var(--primary-color);
   padding: 18px 30px;
 }
-
 @media (max-width: 900px) {
   .hero {
     text-align: center;
@@ -121,7 +111,6 @@ p {
   .hero h1 {
     font-size: 60px;
   }
-
   .feature {
     font-size: 20px;
   }
@@ -135,7 +124,6 @@ p {
   .view-button {
     text-align: center;
   }
-
   .view-button-coffee,
   .view-button-tz,
   .view-button-weather,
@@ -145,23 +133,23 @@ p {
     display: block;
     border-radius: 10px;
   }
-  .about-section-content {
+  .contact-container body {
     text-align: center;
     padding: 0;
   }
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   font-family: var(--heading-font-family);
   font-weight: 700;
 }
-.about-section h2 {
+.content-container h2 {
   font-family: var(--default-font-family);
   font-size: 18px;
   font-weight: 700;
 }
-.about-section p {
+.content-container p {
   color: rgba(39, 33, 66, 0.7);
   font-family: var(--heading-font-family);
   font-weight: 400;
@@ -169,22 +157,17 @@ p {
 }
 
 .contact-container {
-  padding: 120px 20px;
-  margin: 20px;
-  background: #ccb59d;
+  background-color: lavenderblush;
 }
-
 .contact-container h1 {
   font-family: var(--heading-font-family);
   font-size: 64px;
   font-weight: 700;
 }
-
 .contact-container h2 {
   font-weight: 700;
   font-family: var(--heading-font-family);
   font-size: 48px;
-
   font-weight: 700;
 }
 .contact-container p {
@@ -200,13 +183,35 @@ p {
   padding: 18px 30px;
   color: white;
 }
-
 .icons {
   display: flex;
   justify-content: center;
   transition: ease-in-out all 200ms;
 }
-
 .fa-brands:hover {
-  transform: scale(2.2);
+  transform: scale(2.6);
+}
+.content h1 {
+  font-family: "Playfair Display " serif;
+  font-size: 64px;
+  font-weight: 700;
+  font-style: normal;
+}
+.content h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+.content p {
+  color: rgba(39, 33, 66, 0.7);
+  font-family: var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* or "contain" */
 }
