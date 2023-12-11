@@ -168,7 +168,45 @@ p {
   font-size: 16px;
 }
 
-.about-section-content {
+.contact-container {
   padding: 120px 20px;
   margin: 20px;
+  background: #ccb59d;
+}
+
+.contact-container h1 {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.contact-container h2 {
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+
+  font-weight: 700;
+}
+.contact-container p {
+  color: rgba(39, 33, 66, 0.7);
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.contact-btn {
+  border-radius: 4px;
+  background: #6c63ff;
+  padding: 18px 30px;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  transition: ease-in-out all 200ms;
+}
+
+.fa-brands:hover {
+  transform: scale(2.2);
 }
