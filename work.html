@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Anisa is a front-end developer based in Copenhagen Denmark. She has worked on severel coding projects as part of her studying journey that are showcased on this page" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Work</title>
+    <title>View Front-end developer Anisa Mohamud's Work</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,18 +32,18 @@
     <div class="container nav-container">
       <nav>
         <ul>
-          <li>
-            <a href="/">Home</a>
+          <li class="active">
+            <a href="/" title="Homepage">Home</a>
           </li>
 
-          <li><a href="/about.html">About</a></li>
+          <li><a href="/about.html" title="About Anisa">About</a></li>
 
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Anisa">Contact</a>
           </li>
 
           <li class="active">
-            <a href="/work.html"> Work</a>
+            <a href="/work.html" title="View Anisas work"> Work</a>
           </li>
         </ul>
       </nav>
@@ -54,7 +57,7 @@
           <div class="col-md-6">
             <img
               src="img/weatherApp.png"
-              alt=""
+              alt="weather project"
               class="img-fluid rounded weather-app" />
             <h3 class="text-center mt-5">Weather App</h3>
             <p class="text-center">Built with HTML, CSS and Javascript</p>
@@ -62,7 +65,7 @@
           <div class="col-md-6">
             <img
               src="img/BasicProject.png"
-              alt=""
+              alt="coffe project"
               class="img-fluid rounded p-2" />
             <h3 class="text-center">Coffee Project</h3>
             <p class="text-center">Built with HTML and CSS</p>
@@ -70,17 +73,72 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <img src="img/TimeZone.png" alt="" class="img-fluid rounded mb-3" />
+            <img
+              src="img/TimeZone.png"
+              alt="timezone"
+              class="img-fluid rounded mb-3" />
             <h3 class="text-center">World Clock Project</h3>
             <p class="text-center">Built with HTML, CSS and Javascript</p>
           </div>
           <div class="col-md-6">
-            <img src="img/darktheme.png" alt="" class="img-fluid rounded" />
+            <img
+              src="img/darktheme.png"
+              alt="add-on project"
+              class="img-fluid rounded" />
             <h3 class="text-center">Hobby Project</h3>
             <p class="text-center">Built with HTML and CSS</p>
           </div>
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between d-none d-lg-flex">
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's collaborate</p>
+        </div>
+        <div class="d-none d-lg-block">
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-4"
+            title="Contact Anisa"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <span class="d-flex justify-content-center mt-4 mb-2"
+        ><a href="mailto:anisah902@gmail.com" title="Email Anisa"
+          >Anisah902@gmail.com</a
+        ></span
+      >
+      <div class="social-links d-flex justify-content-center mb-3">
+        <a
+          href="https:www.instagram.com/itsanisah91"
+          target="_blank"
+          title="instagram profile"
+          ><i class="fa-brands fa-instagram fa-2xl" style="color: #511f21"></i
+        ></a>
+
+        <a
+          href="https://www.linkedin.com/in/anisa-mohamud-bb635a144/"
+          target="_blank"
+          title="Linked-in profile">
+          <i class="fa-brands fa-linkedin fa-2xl" style="color: #1f2689"></i
+        ></a>
+
+        <a
+          href="https://github.com/Anisah91"
+          target="_blank"
+          title="Github profile">
+          <i class="fa-brands fa-github fa-2xl" style="color: #29477a"></i
+        ></a>
+      </div>
+      <p class="signed text-muted text-center">
+        This project is coded by Anisa Mohamud and it is
+        <a href="https://github.com/Anisah91" target="_blank">open-sourced</a>
+        on Github and hosted on
+        <a href="http://" target="_blank">Netlify</a>
+      </p>
+    </footer>
   </body>
 </html>

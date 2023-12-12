@@ -151,12 +151,17 @@ p {
   footer h4 {
     font-size: 35px !important;
   }
+  .signed {
+    font-size: 10px;
+    text-align: center;
+    font-weight: normal;
+  }
 }
 
 .content-container h1 {
   font-size: 64px;
   font-family: var(--heading-font-family);
-  font-weight: 400;
+  font-weight: 700;
 }
 .content-container h2 {
   font-family: var(--default-font-family);
@@ -279,4 +284,12 @@ span a {
 span a:hover {
   text-decoration: none;
   color: #6e6864;
+}
+
+.signed {
+  font-size: 18px;
+  font-weight: lighter;
+}
+.about-me {
+  text-align: left;
 }
