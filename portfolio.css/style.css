@@ -145,11 +145,11 @@ p {
 
   footer .contact-box {
     background: #ccb59d;
-    padding: 15px 60px;
+    padding: 10px 30px;
     border-radius: 20px;
   }
-  h4 {
-    font-size: 35px;
+  footer h4 {
+    font-size: 35px !important;
   }
 }
 
