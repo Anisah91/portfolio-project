@@ -293,3 +293,8 @@ span a:hover {
 .about-me {
   text-align: left;
 }
+
+.btn-project:hover {
+  text-decoration: none;
+  color: white;
+}
